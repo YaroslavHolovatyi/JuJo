@@ -7,6 +7,7 @@ TagManager:
   - UserName
   - UserScore
   - UserImage
+  - Platform
   layers:
   - Default
   - TransparentFX
