@@ -267,8 +267,9 @@ GameObject:
   - component: {fileID: 302138458}
   - component: {fileID: 302138457}
   - component: {fileID: 302138456}
+  - component: {fileID: 302138459}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartAGameButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,7 +339,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 302138457}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4642904164764966586, guid: 40af1ef260f4bb745bd919b5e77dcbbb, type: 3}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &302138457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,6 +390,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302138454}
   m_CullTransparentMesh: 1
+--- !u!114 &302138459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302138454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89edd1134b0f418499e0e43a18a7c5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: ProProcrastinatorGame
 --- !u!1 &302529944
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +970,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 415108701}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4642904164764966586, guid: 40af1ef260f4bb745bd919b5e77dcbbb, type: 3}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &415108701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2329,8 +2367,9 @@ GameObject:
   - component: {fileID: 1348576065}
   - component: {fileID: 1348576064}
   - component: {fileID: 1348576063}
+  - component: {fileID: 1348576066}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartAGameButtonTwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2399,7 +2438,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1348576064}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4642904164764966586, guid: 40af1ef260f4bb745bd919b5e77dcbbb, type: 3}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1348576064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2438,6 +2489,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348576061}
   m_CullTransparentMesh: 1
+--- !u!114 &1348576066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348576061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89edd1134b0f418499e0e43a18a7c5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: ProProcrastinatorGame
 --- !u!1 &1438356941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,7 +2665,7 @@ GameObject:
   - component: {fileID: 1501601858}
   - component: {fileID: 1501601857}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ProfileButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3003,7 +3067,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1696528243}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -8013336104135546536, guid: 23f36faec444f27498e1ac7094da158f, type: 3}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1696528243
 MonoBehaviour:
   m_ObjectHideFlags: 0
